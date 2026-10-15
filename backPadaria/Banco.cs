@@ -27,6 +27,7 @@ namespace backPadaria
                     using (var command = new MySqlCommand("SELECT VERSION();", connection))
                     {
                         string? version = command.ExecuteScalar()?.ToString();
+
                         Console.WriteLine($"Versão do MariaDB {version}");
                     }
 
