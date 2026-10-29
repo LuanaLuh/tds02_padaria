@@ -1,6 +1,7 @@
 ﻿using backPadaria.Model;
+using backPadaria.Service;
 using backPadaria.Sevice;
-using backPadaria.Sevices;
+using backPadaria.Sevice;
 using System.ComponentModel.Design;
 
 namespace backPadaria
@@ -153,9 +154,13 @@ namespace backPadaria
             //    Console.WriteLine("-----------------");
             //}
 
-            FuncionarioService.MenuFuncionario();
+            //MarcaService.MenuMarca();
 
 
+            //LoginD Login = new LoginFuncionario(2, "jp_padoca@padariapaoecia. com.br", "deumaoito", "Diretor");
+            //LoginService.FazerLoginMenu();
+
+            VendaService.MenuVendas();
 
 
         }
